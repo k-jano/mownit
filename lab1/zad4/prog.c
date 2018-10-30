@@ -15,7 +15,7 @@ int main(void){
     printf("\n-----DOUBLE PRECISION-----\n");
 
     double myValD = 1.0;
-    float myEpsD = 1.0;
+    double myEpsD = 1.0;
 
     while(myValD + (double)(myEpsD*0.5)!=myValD)
         myEpsD*=0.5;
